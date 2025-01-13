@@ -450,6 +450,61 @@
     width: 100%;
     /* border: 2px solid red; */
   }
+  #name {
+    margin-left: 30px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+  #phone {
+    margin-left: 30px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+
+#email {
+    margin-left: 30px;
+    height: 40px;
+    width: 300px;
+    border-radius: 5px;
+    border-color:  whitesmoke;
+}
+
+#mes {
+    margin-top: 12px;
+    text-align: start;
+    margin-left: 1%;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+.class {
+    margin-top: 10px;
+    text-align: start;
+    margin-left: 6%;
+    border-color: whitesmoke;
+}
+#name11{
+
+}
+#phone11{
+
+}
+#email11{
+    
+}
+.button2111{
+     /* margin: 7px; */
+     margin-left: 250px;
+     margin-top: 20px;
+      background-color:  #1763b3;
+            color: white;
+            border-radius: 900px;
+            padding: 13px 96px;
+            border: 1px ;
+        }
   /* ------------------------------------------section 12------------------------------------ -------------------*/
   .whole12{
     background-color: white;
@@ -820,8 +875,30 @@
     </div>
     <div style="height: 800vh; width: 100%; display: flex; position: relative;">
         <div style="height: 50vh; width: 26%; border: 2px solid blue; background-color: pink ;position: absolute; z-index: 1; left: 924px;  filter: blur(80px); border-radius: 40%;"></div>
-        <div style="height: 60vh; width: 58%; border: 2px solid purple; position: absolute; background-color: white; z-index: 2; left: 300px;"></div>
-        <div style="height: 40vh; width: 26%;  background-color: #5099e8; position: absolute;z-index: 1; filter: blur(290px); border-radius: 40%; "></div>
+        <div style="height: 60vh; width: 58%; position: absolute; background-color: white; z-index: 2; left: 300px; display: flex; border-radius: 10px; box-shadow: 25px 25px 25px 20px lightgray;">
+            <div style="height:80vh; width: 70%;  position: absolute;">
+                <label for="name">
+                    <h4 class="class" id="name11">Name</h4>
+                </label> <br>
+                <input type="text" id="name" placeholder="Your Name">
+                <label for="phone">
+                    <h4 class="class" id="phone11">Phone</h4>
+                </label> <br>
+                <input type="text" id="phone" placeholder="Enter Your no">
+                <label for="email">
+                    <h4 class="class" id="email11">Email</h4>
+                </label> <br>
+                <input type="text" id="email" placeholder="Enter Your Email">
+                <button class="button2111">Get Started</button>
+            </div>
+            <div style="height:40vh; width: 30%;  position: absolute; z-index: 1; left: 400px;">
+                <label for="area">
+                    <h4 id="mes">Message</h4>
+                </label>
+                <textarea name="text" id="area" rows="15" cols="34" placeholder="Your Message" style="margin-top: 14px;"></textarea>
+            </div>
+        </div>
+        <div style="height: 40vh; width: 26%;  background-color: #5099e8; position: absolute;z-index: 1; filter: blur(80px); border-radius: 40%; "></div>
     </div>
   </div>
   <!-- ---------------------------------------------section 12---------------------------------- ----------->
@@ -854,7 +931,7 @@
             </div>
             <div style="height: 8vh; width: 45%;  display: flex;">
                 <div style="height: 8vh; width: 75px; " >
-                       <img src="phone-fill.png" alt="" style="margin-left: 51px; margin-top: 15px ;">
+                       <img src="phone-fill.png" alt="" style="margin-left: 51px;  margin-top: 15px ;">
                 </div>
                 <div>
                     <p style="margin-top: 20px;"> +91 8459 8762 26</p>
